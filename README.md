@@ -1,7 +1,7 @@
 # Gait-MTC-segmentation-analysis
-Target Based Gait Segmentation Algorithm 
+# Target Based Gait Segmentation Algorithm 
 Implementation Methods:
-Using Python, Pandas Library, Openpyxl Python Library (Used specifically to read, write, create, and edit Excel (.xlsx)
+Using Python, Pandas Library, Openpyxl Python Library (Used specifically to read, write, create, and edit Excel (.xlsx))
 
 Developing an algorithm to segment LMTC/RMTC target Data:
 - Normal walking/No Adjustment (MTC = 0)
