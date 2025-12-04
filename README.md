@@ -12,4 +12,3 @@ Data Includes:
 - Frame numbers are used to align gait events and angles.
 - Visual cue (red-line in Visual3D) appears when the participant sees a target. (no red line represents normal walking/no adjustment)
 
-- 
