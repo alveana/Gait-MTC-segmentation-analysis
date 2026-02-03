@@ -1,17 +1,11 @@
 # Gait-MTC-segmentation-analysis
-# Target Based Gait Segmentation Algorithm 
-Implementation Methods:
-Using Python, Pandas Library, Openpyxl Python Library (Used specifically to read, write, create, and edit Excel (.xlsx))
-
-Developing an algorithm to segment LMTC/RMTC target Data:
-- Normal walking/No Adjustment (MTC = 0)
-- Adjusted walking (MTC target present: LMTC/RMTC targets)
-
-Data Includes:
-- Joint angle files for each limb (specifically ankle, knee, hip) across various trials.
-- Specific segment where the participant:
-  - Walked with LMTC target
-  - Walked with RMTC target
-  - Walked without any target (baseline/no-adjustment)
-- Frame numbers are used to align gait events and angles.
-- Visual cue (red-line in Visual3D) appears when the participant sees a target. (no red line represents normal walking/no adjustment)
+# plt.py algorithm: Use this for exploratory analysis of one file 
+	Overview: This Python script is currently analyzing gait patterns from motion capture data (C3D format) by just detecting swing phase (peak) and foot strikes (min. Point post peak) in vertical displacement trajectories. The tool automatically identifies gait events, calculating displacement metrics, and generating visualization for further biomechanical gait analysis. 
+	
+  Features:
+Automatic Peak Detection: Identifies swing phase peaks using scipy signal processing 
+Step Detection: Detects foot strikes at valley point (lowest displacement)
+Data Export: Generates Excel workbook with three sheets (displacement data, peaks, steps)
+Visualization: Create plots with marked gait events. 
+Statistical Summary: Calculates average peak and step displacements
+Combined Report: Console table showing peaks and steps. 
