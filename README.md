@@ -1,4 +1,4 @@
-# Gait-MTC-segmentation-analysis
+# Gait-Event Detection/Segmentation Analysis Pipeline 
 # plt.py algorithm: Use this for exploratory analysis of one file 
 	Overview: This Python script is currently analyzing gait patterns from motion capture data (C3D format) by just detecting swing phase (peak) and foot strikes (min. Point post peak) in vertical displacement trajectories. The tool automatically identifies gait events, calculating displacement metrics, and generating visualization for further biomechanical gait analysis. 
 	
@@ -9,3 +9,4 @@ Data Export: Generates Excel workbook with three sheets (displacement data, peak
 Visualization: Create plots with marked gait events. 
 Statistical Summary: Calculates average peak and step displacements
 Combined Report: Console table showing peaks and steps. 
+
